@@ -1,0 +1,10 @@
+.border-bottom-navbar {
+    border-bottom: 1px solid #ddd; /* Puedes ajustar el color y el grosor del borde según tus preferencias */
+  }
+
+.dropdown-item{
+    color: #000;
+}
+.dropdown-item:hover{
+    color: #fff;
+}
