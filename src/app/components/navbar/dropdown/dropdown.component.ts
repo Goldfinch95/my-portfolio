@@ -10,4 +10,15 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class DropdownComponent {
 
+  toHome(){
+    document.getElementById('home')?.scrollIntoView({behavior: 'smooth'})
+  }
+
+  toProjects(){
+    document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})
+  }
+
+  toContact(){
+    document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})
+  }
 }

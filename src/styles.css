@@ -6,6 +6,11 @@
     color-scheme: light;
 }
 
+html {
+    scroll-behavior: smooth;
+    offset: -100;
+  }
+
 img{
     
     border-radius: 50%;
@@ -14,3 +19,4 @@ img{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+

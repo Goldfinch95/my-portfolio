@@ -17,4 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
 })
 export class AppComponent {
   title = 'my-portfolio';
+
+  toProjects(){
+    document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})
+  }
 }

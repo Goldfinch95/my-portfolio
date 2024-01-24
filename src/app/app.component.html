@@ -1,7 +1,7 @@
 <!--navbar-->
 <app-navbar></app-navbar>
 <!--Home-->
-<section class="home py-5">
+<section class="home py-5" id="home">
     <div class="container-lg">
         <div class="row  min-vh-100 align-items-center align-content-center">
             <div class="col-md-6">
@@ -15,7 +15,7 @@
                     <h1 class="text-danger text-uppercase fs-1 fw-bold">Diseñador Web</h1>
                     <h2 class="fs-4">Goldfinch</h2>
                     <p class="mt-4 mb-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="#portfolio" class="btn btn-danger px-3 ms-3">Mis Proyectos</a>
+                    <a href="#portfolio" (click)="toProjects()" class="btn btn-danger px-3 ms-3">Mis Proyectos</a>
                 </div>
             </div>
         </div>

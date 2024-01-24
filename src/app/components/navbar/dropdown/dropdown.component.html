@@ -4,10 +4,10 @@
 			<button type="button" class="btn btn-secondary btn-danger px-3"  ngbDropdownToggle>
 				<i class="bi bi-list"></i>
 			</button>
-			<div ngbDropdownMenu  class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownBasic1 ">
-				<button ngbDropdownItem>Principal</button>
-				<button ngbDropdownItem>Proyectos</button>
-				<button ngbDropdownItem>Contacto</button>
-			</div>
+			<div ngbDropdownMenu class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownBasic1">
+				<button (click)="toHome()" ngbDropdownItem>Principal</button>
+				<button (click)="toProjects()" ngbDropdownItem>Proyectos</button>
+				<button (click)="toContact()" ngbDropdownItem>Contacto</button>
+			  </div>
 		</div>
 	</div>
