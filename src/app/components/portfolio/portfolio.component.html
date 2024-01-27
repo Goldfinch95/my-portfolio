@@ -1,4 +1,4 @@
-<section class="portfolio  py-5" id="projects">
+<section class="portfolio py-5" id="projects">
   <div class="container-lg py-4">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -10,20 +10,26 @@
     <div class="row">
       @for (project of projects; track project.id) {
       <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
+        <div class="card">
           <img
-            class="w-100 img-thumbnail"
+            class="card-img-top cw-100 img-thumbnail"
             src="{{ project.projectImg }}"
             alt="portfolio item"
           />
-          <h3 class="text-capitalize text-info fs-5 my-2">{{ project.projectName }}</h3>
-          <p class="mb-4">
-            <a
-              href="{{ project.projectLink }}"
-              class="text-danger text-decoration-none text-white"
-              >Ingresar</a
-            >
-          </p>
+          <div class="info">
+            <h3 class="card-title text-info fs-5 my-2">
+              {{ project.projectName }}
+            </h3>
+            <button class="btn btn-outline-light bg-info">
+              
+                <a
+                  href="{{ project.projectLink }}"
+                  class="card-subtitle text-decoration-none text-white"
+                  >Ingresar</a
+                >
+              
+            </button>
+          </div>
         </div>
       </div>
       }

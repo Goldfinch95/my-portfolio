@@ -2,6 +2,30 @@
     background-color: #0F1D4A;
 }
 
+.card{
+    background-color: #000a3d;
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+    background: linear-gradient(to left,#0F1D4A 50%,#000b40 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s ease-out;
+}
+
+.card:hover{
+    background-position: left;
+}
+
+
+button:hover{
+    background-color: #0F1D4A;
+}
 
 .py-5{
     padding-bottom: 17rem !important;

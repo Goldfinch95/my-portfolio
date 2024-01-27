@@ -1,3 +1,10 @@
 nav {
+/* From https://css.glass */
+background: rgba(170, 170, 170, 0.27);
+box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(170, 170, 170, 0.3);
+
     border-bottom: 1px solid #0dcaf0; /* Puedes ajustar el color y el grosor del borde según tus preferencias */
   }
