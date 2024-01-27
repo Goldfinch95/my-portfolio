@@ -9,9 +9,24 @@
     </div>
     <div class="row">
       @for (project of projects; track project.id) {
-      <div class="col-md-6 col-lg-4">
-        <div class="card">
-          <img
+      <div class="img-hover col-md-6 col-lg-4">
+        <div class="card" style="width: 400px">
+          <img src="{{ project.projectImg }}" class="card-img  cw-100 img-thumbnail" alt="projects-image">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-info fs-5 my-2">
+              {{ project.projectName }}
+            </h3>
+            <button class="btn btn-outline-light bg-info">
+              
+              <a
+                href="{{ project.projectLink }}"
+                class="card-subtitle text-decoration-none text-white"
+                >Ingresar</a
+              >
+            
+          </button>
+  </div>
+          <!--<img
             class="card-img-top cw-100 img-thumbnail"
             src="{{ project.projectImg }}"
             alt="portfolio item"
@@ -29,7 +44,7 @@
                 >
               
             </button>
-          </div>
+          </div>-->
         </div>
       </div>
       }
