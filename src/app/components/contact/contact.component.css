@@ -19,3 +19,10 @@ input, textarea{
 input::placeholder, textarea::placeholder{
     color: #fff;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .py-4{
+        padding-bottom: 0 !important;
+    }
+}

@@ -43,3 +43,8 @@ a{
     margin-left: 0 !important;
 }
 
+@media only screen and (max-width: 767px) {
+    .home-img{
+        padding-top: 30px; 
+    }
+}
